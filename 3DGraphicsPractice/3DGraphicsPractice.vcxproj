@@ -139,7 +139,53 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\imgui\backends\imgui_impl_allegro5.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_android.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx10.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx12.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_dx9.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_glut.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_opengl2.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_sdl.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_wgpu.cpp" />
+    <ClCompile Include="..\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\imgui\imgui.cpp" />
+    <ClCompile Include="..\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\imgui\imgui_widgets.cpp" />
     <ClCompile Include="3DGraphicsPractice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\imgui\backends\imgui_impl_allegro5.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_android.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx10.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx12.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_dx9.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_glut.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_opengl2.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_osx.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_sdl.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_vulkan.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_wgpu.h" />
+    <ClInclude Include="..\imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="..\imgui\imconfig.h" />
+    <ClInclude Include="..\imgui\imgui.h" />
+    <ClInclude Include="..\imgui\imgui_internal.h" />
+    <ClInclude Include="..\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\imgui\imstb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\imgui\backends\imgui_impl_osx.mm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

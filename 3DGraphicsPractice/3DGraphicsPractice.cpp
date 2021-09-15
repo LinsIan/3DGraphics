@@ -5,6 +5,7 @@
 
 int main()
 {
+    //把opengl2的資料夾結構引入進來
     std::cout << "Hello World!\n";
 }
 
