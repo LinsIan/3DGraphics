@@ -31,12 +31,6 @@
     <ClCompile Include="..\imgui\imgui_widgets.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_allegro5.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_android.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
     <ClCompile Include="..\imgui\backends\imgui_impl_dx9.cpp">
       <Filter>imgui\backends</Filter>
     </ClCompile>
@@ -52,22 +46,10 @@
     <ClCompile Include="..\imgui\backends\imgui_impl_glfw.cpp">
       <Filter>imgui\backends</Filter>
     </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_glut.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
     <ClCompile Include="..\imgui\backends\imgui_impl_opengl2.cpp">
       <Filter>imgui\backends</Filter>
     </ClCompile>
     <ClCompile Include="..\imgui\backends\imgui_impl_opengl3.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_sdl.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_vulkan.cpp">
-      <Filter>imgui\backends</Filter>
-    </ClCompile>
-    <ClCompile Include="..\imgui\backends\imgui_impl_wgpu.cpp">
       <Filter>imgui\backends</Filter>
     </ClCompile>
     <ClCompile Include="..\imgui\backends\imgui_impl_win32.cpp">
@@ -84,21 +66,6 @@
     <ClInclude Include="..\imgui\imgui_internal.h">
       <Filter>imgui</Filter>
     </ClInclude>
-    <ClInclude Include="..\imgui\imstb_rectpack.h">
-      <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\imstb_textedit.h">
-      <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\imstb_truetype.h">
-      <Filter>imgui</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_allegro5.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_android.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
     <ClInclude Include="..\imgui\backends\imgui_impl_dx9.h">
       <Filter>imgui\backends</Filter>
     </ClInclude>
@@ -114,9 +81,6 @@
     <ClInclude Include="..\imgui\backends\imgui_impl_glfw.h">
       <Filter>imgui\backends</Filter>
     </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_glut.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
     <ClInclude Include="..\imgui\backends\imgui_impl_opengl2.h">
       <Filter>imgui\backends</Filter>
     </ClInclude>
@@ -126,25 +90,8 @@
     <ClInclude Include="..\imgui\backends\imgui_impl_opengl3_loader.h">
       <Filter>imgui\backends</Filter>
     </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_osx.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_sdl.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_vulkan.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
-    <ClInclude Include="..\imgui\backends\imgui_impl_wgpu.h">
-      <Filter>imgui\backends</Filter>
-    </ClInclude>
     <ClInclude Include="..\imgui\backends\imgui_impl_win32.h">
       <Filter>imgui\backends</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\imgui\backends\imgui_impl_osx.mm">
-      <Filter>imgui\backends</Filter>
-    </None>
   </ItemGroup>
 </Project>
